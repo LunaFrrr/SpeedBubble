@@ -12,7 +12,7 @@ public class StickBubbles : MonoBehaviour
     public TextMeshProUGUI pagesText;
     public GameObject nextButton;
 
-    public Sprite[] pages = new Sprite[3];
+    public Sprite[] pages;
     public GameObject manga;
     public GameObject bubbleContainer;
     public static GameObject[] bubbles;
@@ -74,6 +74,7 @@ public class StickBubbles : MonoBehaviour
 
     void Update()
     {
+        Debug.Log(pages.Length);
         if (timerText != null)
         {
             
@@ -164,13 +165,12 @@ public class StickBubbles : MonoBehaviour
     private void SelectRandomPages()
     {
         HashSet<int> usedIndexes = new HashSet<int>();
-
         for (int i = 0; i < randomPages.Length; i++)
         {
             int nRandom;
             do
             {
-                nRandom = Random.Range(0, randomPages.Length);
+                nRandom = Random.Range(0, pages.Length);
             } while (usedIndexes.Contains(nRandom));
 
             usedIndexes.Add(nRandom);

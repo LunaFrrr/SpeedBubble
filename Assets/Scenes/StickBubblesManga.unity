@@ -1832,6 +1832,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 1851a0f6a236dff41a44ed3a5df8ad4b, type: 3}
   - {fileID: 21300000, guid: b97b91e89faa8464ca7b3d0f6ba7ebaa, type: 3}
   - {fileID: 21300000, guid: 44b0878570a27c64aa3f018160a4ee42, type: 3}
+  - {fileID: -4680715505495473142, guid: f96542b78dd9d2347b2d9d22a2764cbf, type: 3}
   manga: {fileID: 1328916358}
   bubbleContainer: {fileID: 885172472}
   lastRand: 
@@ -2814,7 +2815,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 924db739179709042ad24fbbb92adb61, type: 2}
   m_sharedMaterial: {fileID: -7397067085838862537, guid: 924db739179709042ad24fbbb92adb61, type: 2}
@@ -3457,7 +3458,6 @@ GameObject:
   - component: {fileID: 1562251043}
   - component: {fileID: 1562251042}
   - component: {fileID: 1562251041}
-  - component: {fileID: 1562251045}
   - component: {fileID: 1562251044}
   m_Layer: 5
   m_Name: CanvasBubbles
@@ -3565,31 +3565,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cursorTexture: {fileID: 2800000, guid: dd3a0d906e8b5984dbbd1e0686f9ab59, type: 3}
   hotSpot: {x: 0, y: 0}
---- !u!114 &1562251045
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1562251039}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5449c46c00f6ede44805e963aac147a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timerText: {fileID: 0}
-  pagesText: {fileID: 0}
-  nextButton: {fileID: 0}
-  pages:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  manga: {fileID: 0}
-  bubbleContainer: {fileID: 0}
-  lastRand: 
-  clock: {fileID: 0}
-  music: {fileID: 0}
-  info: {fileID: 0}
 --- !u!1 &1708987750
 GameObject:
   m_ObjectHideFlags: 0
