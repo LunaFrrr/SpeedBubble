@@ -211,7 +211,7 @@ public class StickBubbles : MonoBehaviour
         }
         else
         {
-            TransitionManager.LoadTransition(null);
+            TransitionManager.LoadTransition();
             //SceneManager.LoadScene("ShowMangas");
         }
     }

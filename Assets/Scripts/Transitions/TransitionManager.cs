@@ -7,7 +7,7 @@ public class TransitionManager : MonoBehaviour
     public Animator transition;
     public float transitionTime = 1f;
 
-    public void LoadTransition(AudioSource music)
+    public void LoadTransition(AudioSource music = null)
     {
         if (music != null)
         {

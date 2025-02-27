@@ -34,7 +34,7 @@ public class PlayVideo : MonoBehaviour
         {
 
             //NextScene();
-            TransitionManager.LoadTransition(music.GetComponent<AudioSource>());
+            TransitionManager.LoadTransition();
         }
     }
 

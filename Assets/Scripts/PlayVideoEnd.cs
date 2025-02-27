@@ -23,7 +23,7 @@ public class PlayVideoEnd : MonoBehaviour
         if (videoPlayer.isPaused)
         {
             //NextScene();
-            TransitionManager.LoadTransition(null);
+            TransitionManager.LoadTransition();
         }
     }
 

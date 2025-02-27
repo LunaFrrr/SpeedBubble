@@ -88,7 +88,7 @@ public class DisplayMangas : MonoBehaviour
             Destroy(lastSong);
             Destroy(selection);
             endSound.Play();
-            TransitionManager.LoadTransition(null);
+            TransitionManager.LoadTransition();
             //StartCoroutine(PlaySoundAndLoadScene(endSound, "EndAnimatic"));
         }
         else
