@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      manga_page4_0: -4680715505495473142
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -152,7 +152,6 @@ GameObject:
   - component: {fileID: 8825897176608124491}
   - component: {fileID: 2813178135807347864}
   - component: {fileID: 3997510179203533062}
-  - component: {fileID: 9122944409053354754}
   m_Layer: 5
   m_Name: Real transition BG
   m_TagString: Untagged
@@ -169,8 +168,8 @@ RectTransform:
   m_GameObject: {fileID: 1632631698978825289}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: -1.4, y: -1.4, z: -1.4}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 5086498306315336380}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -217,16 +216,3 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &9122944409053354754
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1632631698978825289}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c8483d47dcce3a459a842bbdbe36dc0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parent: {fileID: 212897480215544947}

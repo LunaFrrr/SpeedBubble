@@ -1074,6 +1074,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1632631698978825289, guid: df09aebd75f70c74182c591ca4786cfd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5086498306315336380, guid: df09aebd75f70c74182c591ca4786cfd, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1158,6 +1162,14 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: d26c8d8c362a92846b36df056bf0662d, type: 2}
+    - target: {fileID: 8825897176608124491, guid: df09aebd75f70c74182c591ca4786cfd, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8825897176608124491, guid: df09aebd75f70c74182c591ca4786cfd, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
