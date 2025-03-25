@@ -1833,6 +1833,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: b97b91e89faa8464ca7b3d0f6ba7ebaa, type: 3}
   - {fileID: 21300000, guid: 44b0878570a27c64aa3f018160a4ee42, type: 3}
   - {fileID: -4680715505495473142, guid: f96542b78dd9d2347b2d9d22a2764cbf, type: 3}
+  - {fileID: -8227411372824627332, guid: be53867c7154e4a4cb4986a08a38d52e, type: 3}
   manga: {fileID: 1328916358}
   bubbleContainer: {fileID: 885172472}
   lastRand: 
